@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+footer {
+    background-color:  #ffb347;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    
+    position: fixed; /* تثبيت العنصر */
+    bottom: 0;       /* تحديد موقعه في الأسفل */
+    left: 0;         /* تحديد موقعه في اليسار */
+    width: 100%;     /* جعله يمتد على كامل العرض */
+    font-family: monospace;
+    /* box-shadow: 0px 4px 10px rgba(255, 253, 249, 0.6);*/
+} 
+
+
+

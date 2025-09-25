@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.card-hover{
+    transition: all 0.1s linear;
+    transform: scale(1);
+}
+
+.card-hover:hover{
+    transform: scale(1.1);
+}
+
+
+.btn-color {
+    width: 50%;
+    margin-left: 20%;
+    background-color: #ffb347;
+    transition: all 0.3s linear;
+}
+
+.btn-color:hover{
+    background-color: rgba(0, 0, 0, 0.937);
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+.text-color{
+    color: rgb(254, 220, 108);
+}
+
+.a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color:  #ffb347;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    
+    position: fixed; /* تثبيت العنصر */
+    bottom: 0;       /* تحديد موقعه في الأسفل */
+    left: 0;         /* تحديد موقعه في اليسار */
+    width: 100%;     /* جعله يمتد على كامل العرض */
+    font-family: monospace;
+    /* box-shadow: 0px 4px 10px rgba(255, 253, 249, 0.6);*/
+} 
+
